@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Waterfall&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*This is the design for the header (applies to all pages)*/
+.mainTittle h1 {
+  font-family: Waterfall;
+  font-size: 45px;
+  font-weight: bolder; }
+
+.mainTittle h2 {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: bolder; }
+
+.mainTittle img {
+  width: 60px; }
+
+/*This is the design for the navigation bar (applies to all pages)*/
+.navbar {
+  font-family: Montserrat;
+  font-weight: bolder; }
+  .navbar ul li a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .5s; }
+    .navbar ul li a:hover, .navbar ul li a:focus {
+      background-size: 22% 2px; }
+
+/*This is the design for the footer (applies to all pages)*/
+.footer {
+  background-color: #eab4e979; }
+  .footer h5 {
+    font-family: Waterfall;
+    font-size: 22px;
+    font-weight: bolder; }
+  .footer p {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: bolder; }
+
+.paymentLogo {
+  width: 200px; }
+
+.socialMedia a img {
+  width: 30px; }
+
+/*This is the design for the page ''index''*/
+.delivery {
+  font-family: Montserrat; }
+  .delivery h3 {
+    font-weight: bold; }
+  .delivery p {
+    font-weight: bolder; }
+  .delivery img {
+    width: 70px; }
+
+.shopOnline {
+  font-family: Montserrat; }
+  .shopOnline h3 {
+    font-weight: bold; }
+  .shopOnline p {
+    font-weight: bolder; }
+  .shopOnline img {
+    width: 50px; }
+
+@media (min-width: 768px) {
+  .mainTittle h1 {
+    font-size: 50px; }
+  .mainTittle h2 {
+    font-size: 18px; }
+  .footer h5 {
+    font-size: 25px; }
+  .footer p {
+    font-size: 15px; } }
+
+@media (min-width: 992px) {
+  .mainTittle h1 {
+    font-size: 60px; }
+  .mainTittle h2 {
+    font-size: 20px; }
+  .navbar ul li {
+    padding: 20px;
+    font-size: 20px; }
+    .navbar ul li a:hover, .navbar ul li a:focus {
+      background-size: 100% 2px; }
+  .footer h5 {
+    font-size: 30px; }
+  .paymentLogo {
+    width: 300px; } }
